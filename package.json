@@ -1,0 +1,26 @@
+{
+  "name": "webpack-karma-coverage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:development": "npx karma start --browsers Chrome karma.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^8.2.5",
+    "chai": "^4.3.6",
+    "istanbul-instrumenter-loader": "^3.0.1",
+    "karma": "^6.4.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^3.1.1",
+    "karma-coverage": "^2.2.0",
+    "karma-mocha": "^2.0.1",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-sourcemap-loader": "^0.3.8",
+    "karma-webpack": "^5.0.0",
+    "mocha": "^10.0.0",
+    "webpack": "^5.73.0"
+  }
+}
